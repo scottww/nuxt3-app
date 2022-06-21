@@ -7,7 +7,7 @@
 // 定义元信息
 definePageMeta({
   info: "detail",
-  layout: false // 通过元信息的方式关闭 default 布局  不显示footer
+  layout: false, // 通过元信息的方式关闭 default 布局
 });
 
 // 获取当前路由

@@ -1,16 +1,20 @@
 <template>
   <div>
     <!-- <NuxtWelcome /> -->
-    <h1>hello, nuxt3!</h1>
+    <!-- <h1>hello, nuxt3!</h1> -->
 
     <!-- 这将应用到全局 -->
     <!-- <NuxtLayout name="header"></NuxtLayout> -->
-    
+
     <!-- 路由出口 -->
-    <NuxtPage></NuxtPage>
+    <!-- <NuxtPage></NuxtPage> -->
 
     <!-- 这将应用到全局 -->
-    <NuxtLayout name="footer">slot: footer</NuxtLayout>
+    <!-- <NuxtLayout name="footer">slot: footer</NuxtLayout> -->
+
+    <NuxtLayout>
+      <NuxtPage></NuxtPage>
+    </NuxtLayout>
   </div>
 </template>
 

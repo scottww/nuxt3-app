@@ -5,3 +5,8 @@
     <NuxtChild></NuxtChild>
   </div>
 </template>
+<script>
+export default {
+  layout: "custom",
+};
+</script>
