@@ -1,12 +1,12 @@
 <template>
   <div class="default-wrapper">
-    <Header />
+    <AppHeader />
     <slot />
-    <h3>layout footer</h3>
+    <AppFooter />
   </div>
 </template>
 <style scoped>
-.default-wrapper{
+.default-wrapper {
   width: 100%;
   border: 1px solid red;
 }

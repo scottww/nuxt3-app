@@ -1,6 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+//ts-ignore
 export default defineNuxtConfig({
-  devtools: { enabled: true }
+  devtools: { enabled: true },
   // vite: {
   //   css: {
   //     preprocessorOptions: {
@@ -10,4 +11,11 @@ export default defineNuxtConfig({
   //     }
   //   }
   // }
+  css: ["~/assets/css/index.scss"],
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {},
+    },
+  },
 });

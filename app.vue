@@ -6,5 +6,5 @@
   </div>
 </template>
 <script setup>
-import "~/assets/css/index.scss";
+// import "~/assets/css/index.scss";
 </script>
