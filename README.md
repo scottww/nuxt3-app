@@ -1,5 +1,10 @@
 # Nuxt 3 Minimal Starter
 
+## Prerequisites
+
+ - Node.js - v16.10.0 or newer
+ - Text editor - We recommend Visual Studio Code with the Volar Extension
+
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
 ## Setup
