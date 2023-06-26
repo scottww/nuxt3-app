@@ -5,8 +5,9 @@
 </template>
 <style lang="scss" scoped>
 .app-footer-wrapper{
-  width: 100%;
+  // width: 100%;
+  height: 100%;
   @apply flex justify-center items-center;
-  background-color: #ccc;
+  background-color: #eee;
 }
 </style>

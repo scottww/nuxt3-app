@@ -1,3 +1,7 @@
+html,
+body {
+  height: 100%;
+}
 // html,
 // body {
 //   scroll-behavior: smooth;
@@ -19,5 +23,36 @@ $font-size-large: 18px;
 //   @apply flex justify-center items-center;
 // }
 
+// homepage-colors
+:root {
+  --color1: #00bcd7;
+  --color2: #ff3c80;
+  --color3: #5fcc55;
+  --color4: #7596ff;
+  --color5: #cb5fcf;
+  --color6: #f6bb3b;
+  --color7: #018def;
+}
 
+.custom-bg-1{
+  background-color: var(--color1);
+} 
+.custom-bg-2{
+  background-color: var(--color2);
+} 
+.custom-bg-3{
+  background-color: var(--color3);
+} 
+.custom-bg-4{
+  background-color: var(--color4);
+} 
+.custom-bg-5{
+  background-color: var(--color5);
+} 
+.custom-bg-6{
+  background-color: var(--color6);
+} 
+.custom-bg-7{
+  background-color: var(--color7);
+} 
 

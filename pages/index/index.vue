@@ -1,15 +1,12 @@
 <template>
   <div class="app-main-wrapper">
-    <div class="flex flex-col">
-      <h1>Welcome to the homepage</h1>
-      <IndexTest> This is an auto-imported component </IndexTest>
-    </div>
+    <AppMain></AppMain>
   </div>
 </template>
-<style scoped>
+<style lang="scss" scoped>
 .app-main-wrapper {
-  margin: 120px;
-  /* width: 100%; */
-  @apply flex justify-center items-center;
+  width: 1200px;
+  margin: 0 auto;
+  // @apply flex justify-center items-center;
 }
 </style>

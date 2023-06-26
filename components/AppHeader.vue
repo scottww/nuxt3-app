@@ -11,7 +11,7 @@
   height: 60px;
   width: 100%;
   @apply flex justify-center items-center;
-  border: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
 }
 .app-header-wrapper > ul > li {
   padding: 0 8px;
