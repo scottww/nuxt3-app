@@ -21,15 +21,6 @@ $font-color-active: rgb(24, 24, 27);
   a {
     color: $font-color;
     text-decoration: none;
-    // &.active{
-    //   color: $font-color-active;
-    // }
   }
-  // &:first-child{
-  //   a{
-  //     color: $font-color-active;
-  //     font-weight: 600;
-  //   }
-  // }
 }
 </style>
