@@ -23,7 +23,7 @@
     flex: 1;
     // width: 100%;
     // overflow-y:auto;
-    background-color: #edfbfe;
+    // background-color: #edfbfe;
     @apply flex justify-center items-center;
   }
   .header {

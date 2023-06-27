@@ -10,7 +10,7 @@
   // border: 1px solid red;
   @apply flex flex-col;
   .item {
-    height: 100px;
+    height: 150px;
     margin-bottom: 8px;
     // border: 1px solid #333;
     color: #fff;
