@@ -18,7 +18,7 @@
 <style lang="scss" scoped>
 .card {
   width: 350px;
-  height: 450px;
+  height: 400px;
   display: flex;
   flex-direction: column;
   border: 1px solid #ccc;
